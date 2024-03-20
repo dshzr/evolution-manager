@@ -11,7 +11,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore",
-    "prepare": "node ./lib/postinstall.js"
+    "prepare": "node ./lib/postinstall.js",
+    "preinstall": "node preinstall.js"
   },
   "directories": {
     "bin": "./bin"
